@@ -1,0 +1,244 @@
+2022-01-11 23:40:04  INFO: HikariPool-1 - Starting...
+2022-01-11 23:40:14  INFO: HikariPool-1 - Added connection conn0: url=jdbc:h2:./data/database user=SA
+2022-01-11 23:40:14  INFO: HikariPool-1 - Start completed.
+2022-01-11 23:40:19  INFO: Set default schema name to PUBLIC
+2022-01-11 23:40:19  INFO: Clearing database change log checksums
+2022-01-11 23:40:25  INFO: Successfully acquired change log lock
+2022-01-11 23:40:26  INFO: Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2022-01-11 23:40:26  INFO: Successfully released change log lock
+2022-01-11 23:40:26  INFO: Successfully acquired change log lock
+2022-01-11 23:40:26  INFO: Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.json.JsonChangeLogParser Unable to get public no-arg constructor
+2022-01-11 23:40:28  INFO: Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.yaml.YamlChangeLogParser Unable to get public no-arg constructor
+2022-01-11 23:40:56  INFO: Reading from PUBLIC.DATABASECHANGELOG
+2022-01-11 23:41:07  INFO: Cannot load service: liquibase.hub.HubService: Provider liquibase.hub.core.StandardHubService could not be instantiated
+2022-01-11 23:41:10  INFO: Table tc_attributes created
+2022-01-11 23:41:10  INFO: Table tc_calendars created
+2022-01-11 23:41:10  INFO: Table tc_commands created
+2022-01-11 23:41:10  INFO: Table tc_device_attribute created
+2022-01-11 23:41:10  INFO: Table tc_device_command created
+2022-01-11 23:41:10  INFO: Table tc_device_driver created
+2022-01-11 23:41:10  INFO: Table tc_device_geofence created
+2022-01-11 23:41:10  INFO: Table tc_device_maintenance created
+2022-01-11 23:41:10  INFO: Table tc_device_notification created
+2022-01-11 23:41:12  INFO: Table tc_devices created
+2022-01-11 23:41:12  INFO: Table tc_drivers created
+2022-01-11 23:41:12  INFO: Table tc_events created
+2022-01-11 23:41:12  INFO: Table tc_geofences created
+2022-01-11 23:41:12  INFO: Table tc_group_attribute created
+2022-01-11 23:41:12  INFO: Table tc_group_command created
+2022-01-11 23:41:12  INFO: Table tc_group_driver created
+2022-01-11 23:41:12  INFO: Table tc_group_geofence created
+2022-01-11 23:41:12  INFO: Table tc_group_maintenance created
+2022-01-11 23:41:12  INFO: Table tc_group_notification created
+2022-01-11 23:41:12  INFO: Table tc_groups created
+2022-01-11 23:41:12  INFO: Table tc_maintenances created
+2022-01-11 23:41:12  INFO: Table tc_notifications created
+2022-01-11 23:41:12  INFO: Table tc_positions created
+2022-01-11 23:41:12  INFO: Table tc_servers created
+2022-01-11 23:41:12  INFO: Table tc_statistics created
+2022-01-11 23:41:12  INFO: Table tc_user_attribute created
+2022-01-11 23:41:12  INFO: Table tc_user_calendar created
+2022-01-11 23:41:12  INFO: Table tc_user_command created
+2022-01-11 23:41:12  INFO: Table tc_user_device created
+2022-01-11 23:41:12  INFO: Table tc_user_driver created
+2022-01-11 23:41:12  INFO: Table tc_user_geofence created
+2022-01-11 23:41:12  INFO: Table tc_user_group created
+2022-01-11 23:41:12  INFO: Table tc_user_maintenance created
+2022-01-11 23:41:12  INFO: Table tc_user_notification created
+2022-01-11 23:41:12  INFO: Table tc_user_user created
+2022-01-11 23:41:12  INFO: Table tc_users created
+2022-01-11 23:41:12  INFO: Foreign key constraint added to tc_device_command (commandid)
+2022-01-11 23:41:12  INFO: Foreign key constraint added to tc_device_command (deviceid)
+2022-01-11 23:41:12  INFO: Foreign key constraint added to tc_device_driver (deviceid)
+2022-01-11 23:41:12  INFO: Foreign key constraint added to tc_device_driver (driverid)
+2022-01-11 23:41:12  INFO: Foreign key constraint added to tc_device_geofence (deviceid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_device_geofence (geofenceid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_device_maintenance (deviceid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_device_maintenance (maintenanceid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_device_notification (deviceid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_device_notification (notificationid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_devices (groupid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_events (deviceid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_geofences (calendarid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_group_attribute (attributeid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_group_attribute (groupid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_group_command (commandid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_group_command (groupid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_group_driver (driverid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_group_driver (groupid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_group_geofence (geofenceid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_group_geofence (groupid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_group_maintenance (groupid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_group_maintenance (maintenanceid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_group_notification (groupid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_group_notification (notificationid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_notifications (calendarid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_positions (deviceid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_attribute (attributeid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_attribute (userid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_calendar (calendarid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_calendar (userid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_command (commandid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_command (userid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_device_attribute (attributeid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_device_attribute (deviceid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_device (deviceid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_device (userid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_driver (driverid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_driver (userid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_geofence (geofenceid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_geofence (userid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_group (groupid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_group (userid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_maintenance (maintenanceid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_maintenance (userid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_notification (notificationid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_notification (userid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_user (userid)
+2022-01-11 23:41:14  INFO: New row inserted into tc_servers
+2022-01-11 23:41:14  INFO: New row inserted into tc_users
+2022-01-11 23:41:14  INFO: ChangeSet changelog-4.0-clean::changelog-4.0-clean::author ran successfully in 4976ms
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_groups (groupid)
+2022-01-11 23:41:14  INFO: Foreign key constraint added to tc_user_user (manageduserid)
+2022-01-11 23:41:14  INFO: ChangeSet changelog-4.0-clean::changelog-4.0-clean-common::author ran successfully in 15ms
+2022-01-11 23:41:16  INFO: Marking ChangeSet: changelog-3.3::changelog-3.3::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:16  INFO: Marking ChangeSet: changelog-3.5::changelog-3.5::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:16  INFO: Marking ChangeSet: changelog-3.6::changelog-3.6::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:16  INFO: Marking ChangeSet: changelog-3.7::changelog-3.7::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:16  INFO: Marking ChangeSet: changelog-3.7::changelog-3.7-notmssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:16  INFO: Marking ChangeSet: changelog-3.8::changelog-3.8::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:16  INFO: Marking ChangeSet: changelog-3.9::changelog-3.9::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:16  INFO: Marking ChangeSet: changelog-3.10::changelog-3.10::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:16  INFO: Marking ChangeSet: changelog-3.10::changelog-3.10-notmssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:18  INFO: Marking ChangeSet: changelog-3.10::changelog-3.10-mssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:18  INFO: Marking ChangeSet: changelog-3.10::changelog-3.7-mssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:18  INFO: Marking ChangeSet: changelog-3.11::changelog-3.11::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:18  INFO: Marking ChangeSet: changelog-3.12::changelog-3.12::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:18  INFO: Marking ChangeSet: changelog-3.12::changelog-3.12-notmssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:18  INFO: Marking ChangeSet: changelog-3.12::changelog-3.12-pgsql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:18  INFO: Marking ChangeSet: changelog-3.14::changelog-3.14::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:19  INFO: Marking ChangeSet: changelog-3.15::changelog-3.15::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:19  INFO: Marking ChangeSet: changelog-3.16::changelog-3.16::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:19  INFO: Marking ChangeSet: changelog-3.17::changelog-3.3-admin::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:19  INFO: Marking ChangeSet: changelog-3.17::changelog-3.17::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:19  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0-pre::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:19  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0-common::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:19  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0-pg::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:19  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:19  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0-renaming::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-11 23:41:19  INFO: Marking ChangeSet: changelog-4.1::changelog-4.1-mssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : DBMS Precondition failed: expected mssql, got h2
+
+2022-01-11 23:41:22  INFO: Index user_device_user_id created
+2022-01-11 23:41:22  INFO: Index position_deviceid_fixtime created
+2022-01-11 23:41:22  INFO: ChangeSet changelog-4.7::changelog-4.7::author ran successfully in 2968ms
+2022-01-11 23:41:22  INFO: Index event_deviceid_servertime created
+2022-01-11 23:41:22  INFO: ChangeSet changelog-4.9::changelog-4.9::author ran successfully in 1ms
+2022-01-11 23:41:22  INFO: Columns protocols(VARCHAR(4096)) added to tc_statistics
+2022-01-11 23:41:22  INFO: ChangeSet changelog-4.10::changelog-4.10::author ran successfully in 20ms
+2022-01-11 23:41:22  INFO: Columns announcement(VARCHAR(4000)) added to tc_servers
+2022-01-11 23:41:22  INFO: ChangeSet changelog-4.11::changelog-4.11::author ran successfully in 3ms
+2022-01-11 23:41:22  INFO: Column tc_events.servertime renamed to eventtime
+2022-01-11 23:41:22  INFO: ChangeSet changelog-4.13::changelog-4.13::author ran successfully in 5ms
+2022-01-11 23:41:22  INFO: Successfully released change log lock
+2022-01-11 23:41:32  INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+2022-01-11 23:41:45  INFO: Operating system name: Linux version: 5.4.0-77-generic architecture: amd64
+2022-01-11 23:41:45  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: ojdkbuild version: 11.0.12+7-LTS
+2022-01-11 23:41:45  INFO: Memory limit heap: 237mb non-heap: 0mb
+2022-01-11 23:41:45  INFO: Character encoding: UTF-8 charset: UTF-8
+2022-01-11 23:41:45  INFO: Version: 4.14
+2022-01-11 23:41:45  INFO: Starting server...
+2022-01-11 23:41:50  INFO: jetty-10.0.6; built: 2021-06-29T15:28:56.259Z; git: 37e7731b4b142a882d73974ff3bec78d621bd674; jvm 11.0.12+7-LTS
+2022-01-11 23:41:56  INFO: Started o.t.w.@6dece1f9{/,null,AVAILABLE}
+2022-01-11 23:41:58  INFO: Session workerName=node0
+2022-01-11 23:45:35  WARN: JAXBContext implementation could not be found. WADL feature is disabled.
+2022-01-11 23:50:08  INFO: HikariPool-1 - Starting...
+2022-01-11 23:50:13  WARN: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-11 23:50:22 ERROR: HikariPool-1 - Exception during pool initialization. - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-11 23:50:22 ERROR: Main method error - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-11 23:50:46  INFO: HikariPool-1 - Starting...
+2022-01-11 23:50:50  WARN: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-11 23:51:00 ERROR: HikariPool-1 - Exception during pool initialization. - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-11 23:51:00 ERROR: Main method error - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-11 23:51:22  INFO: HikariPool-1 - Starting...
+2022-01-11 23:51:26  WARN: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-11 23:51:35 ERROR: HikariPool-1 - Exception during pool initialization. - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-11 23:51:35 ERROR: Main method error - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-11 23:51:59  INFO: HikariPool-1 - Starting...
+2022-01-11 23:52:02  WARN: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-11 23:52:11 ERROR: HikariPool-1 - Exception during pool initialization. - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-11 23:52:11 ERROR: Main method error - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-11 23:52:32  INFO: HikariPool-1 - Starting...
+2022-01-11 23:52:38  WARN: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-11 23:52:48 ERROR: HikariPool-1 - Exception during pool initialization. - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-11 23:52:48 ERROR: Main method error - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-11 23:53:12  INFO: HikariPool-1 - Starting...
+2022-01-11 23:53:16  WARN: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-11 23:53:25 ERROR: HikariPool-1 - Exception during pool initialization. - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-11 23:53:25 ERROR: Main method error - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-11 23:53:44  INFO: HikariPool-1 - Starting...
+2022-01-11 23:53:50  WARN: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-11 23:53:59 ERROR: HikariPool-1 - Exception during pool initialization. - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-11 23:53:59 ERROR: Main method error - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-11 23:54:23  INFO: HikariPool-1 - Starting...
+2022-01-11 23:54:25  WARN: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-11 23:54:35 ERROR: HikariPool-1 - Exception during pool initialization. - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-11 23:54:35 ERROR: Main method error - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-11 23:54:57  INFO: HikariPool-1 - Starting...
+2022-01-11 23:54:59  WARN: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-11 23:59:07  INFO: HikariPool-1 - Starting...
+2022-01-11 23:59:21  INFO: HikariPool-1 - Starting...
+2022-01-11 23:59:25  WARN: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-11 23:59:35 ERROR: HikariPool-1 - Exception during pool initialization. - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-11 23:59:35 ERROR: Main method error - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-11 23:59:56  INFO: HikariPool-1 - Starting...

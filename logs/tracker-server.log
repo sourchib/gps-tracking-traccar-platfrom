@@ -1,0 +1,314 @@
+2022-01-12 00:00:00  WARN: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-12 00:00:15 ERROR: HikariPool-1 - Exception during pool initialization. - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-12 00:00:15 ERROR: Main method error - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-12 00:00:44  INFO: HikariPool-1 - Starting...
+2022-01-12 00:00:49  WARN: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-12 00:01:00 ERROR: HikariPool-1 - Exception during pool initialization. - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-12 00:01:00 ERROR: Main method error - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-12 00:01:23  INFO: HikariPool-1 - Starting...
+2022-01-12 00:01:27  WARN: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-12 00:01:37 ERROR: HikariPool-1 - Exception during pool initialization. - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-12 00:01:37 ERROR: Main method error - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-12 00:01:56  INFO: HikariPool-1 - Starting...
+2022-01-12 00:01:59  WARN: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-12 00:02:08 ERROR: HikariPool-1 - Exception during pool initialization. - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-12 00:02:08 ERROR: Main method error - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-12 00:02:29  INFO: HikariPool-1 - Starting...
+2022-01-12 00:02:33  WARN: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-12 00:02:40 ERROR: HikariPool-1 - Exception during pool initialization. - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-12 00:02:40 ERROR: Main method error - Unknown database 'traccar1' - CJException (... < DataManager:130 < *:89 < Context:290 < Main:120 < ...)
+2022-01-12 00:03:03  INFO: HikariPool-1 - Starting...
+2022-01-12 00:03:06  WARN: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-12 00:03:11  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@531f4093
+2022-01-12 00:03:11  INFO: HikariPool-1 - Start completed.
+2022-01-12 00:03:19  INFO: Clearing database change log checksums
+2022-01-12 00:03:28  INFO: Successfully acquired change log lock
+2022-01-12 00:03:29  INFO: Creating database history table with name: traccar1.DATABASECHANGELOG
+2022-01-12 00:03:29  INFO: Successfully released change log lock
+2022-01-12 00:03:29  INFO: Successfully acquired change log lock
+2022-01-12 00:03:29  INFO: Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.json.JsonChangeLogParser Unable to get public no-arg constructor
+2022-01-12 00:03:31  INFO: Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.yaml.YamlChangeLogParser Unable to get public no-arg constructor
+2022-01-12 00:03:59  INFO: Reading from traccar1.DATABASECHANGELOG
+2022-01-12 00:04:08  INFO: Cannot load service: liquibase.hub.HubService: Provider liquibase.hub.core.StandardHubService could not be instantiated
+2022-01-12 00:04:10  INFO: Table tc_attributes created
+2022-01-12 00:04:10  INFO: Table tc_calendars created
+2022-01-12 00:04:10  INFO: Table tc_commands created
+2022-01-12 00:04:10  INFO: Table tc_device_attribute created
+2022-01-12 00:04:10  INFO: Table tc_device_command created
+2022-01-12 00:04:12  INFO: Table tc_device_driver created
+2022-01-12 00:04:12  INFO: Table tc_device_geofence created
+2022-01-12 00:04:12  INFO: Table tc_device_maintenance created
+2022-01-12 00:04:12  INFO: Table tc_device_notification created
+2022-01-12 00:04:12  INFO: Table tc_devices created
+2022-01-12 00:04:14  INFO: Table tc_drivers created
+2022-01-12 00:04:14  INFO: Table tc_events created
+2022-01-12 00:04:14  INFO: Table tc_geofences created
+2022-01-12 00:04:14  INFO: Table tc_group_attribute created
+2022-01-12 00:04:14  INFO: Table tc_group_command created
+2022-01-12 00:04:14  INFO: Table tc_group_driver created
+2022-01-12 00:04:16  INFO: Table tc_group_geofence created
+2022-01-12 00:04:16  INFO: Table tc_group_maintenance created
+2022-01-12 00:04:16  INFO: Table tc_group_notification created
+2022-01-12 00:04:16  INFO: Table tc_groups created
+2022-01-12 00:04:16  INFO: Table tc_maintenances created
+2022-01-12 00:04:16  INFO: Table tc_notifications created
+2022-01-12 00:04:18  INFO: Table tc_positions created
+2022-01-12 00:04:18  INFO: Table tc_servers created
+2022-01-12 00:04:18  INFO: Table tc_statistics created
+2022-01-12 00:04:18  INFO: Table tc_user_attribute created
+2022-01-12 00:04:18  INFO: Table tc_user_calendar created
+2022-01-12 00:04:18  INFO: Table tc_user_command created
+2022-01-12 00:04:20  INFO: Table tc_user_device created
+2022-01-12 00:04:20  INFO: Table tc_user_driver created
+2022-01-12 00:04:20  INFO: Table tc_user_geofence created
+2022-01-12 00:04:20  INFO: Table tc_user_group created
+2022-01-12 00:04:20  INFO: Table tc_user_maintenance created
+2022-01-12 00:04:20  INFO: Table tc_user_notification created
+2022-01-12 00:04:20  INFO: Table tc_user_user created
+2022-01-12 00:04:22  INFO: Table tc_users created
+2022-01-12 00:04:24  INFO: Foreign key constraint added to tc_device_command (commandid)
+2022-01-12 00:04:24  INFO: Foreign key constraint added to tc_device_command (deviceid)
+2022-01-12 00:04:25  INFO: Foreign key constraint added to tc_device_driver (deviceid)
+2022-01-12 00:04:25  INFO: Foreign key constraint added to tc_device_driver (driverid)
+2022-01-12 00:04:26  INFO: Foreign key constraint added to tc_device_geofence (deviceid)
+2022-01-12 00:04:26  INFO: Foreign key constraint added to tc_device_geofence (geofenceid)
+2022-01-12 00:04:27  INFO: Foreign key constraint added to tc_device_maintenance (deviceid)
+2022-01-12 00:04:27  INFO: Foreign key constraint added to tc_device_maintenance (maintenanceid)
+2022-01-12 00:04:29  INFO: Foreign key constraint added to tc_device_notification (deviceid)
+2022-01-12 00:04:29  INFO: Foreign key constraint added to tc_device_notification (notificationid)
+2022-01-12 00:04:30  INFO: Foreign key constraint added to tc_devices (groupid)
+2022-01-12 00:04:30  INFO: Foreign key constraint added to tc_events (deviceid)
+2022-01-12 00:04:31  INFO: Foreign key constraint added to tc_geofences (calendarid)
+2022-01-12 00:04:31  INFO: Foreign key constraint added to tc_group_attribute (attributeid)
+2022-01-12 00:04:33  INFO: Foreign key constraint added to tc_group_attribute (groupid)
+2022-01-12 00:04:33  INFO: Foreign key constraint added to tc_group_command (commandid)
+2022-01-12 00:04:34  INFO: Foreign key constraint added to tc_group_command (groupid)
+2022-01-12 00:04:34  INFO: Foreign key constraint added to tc_group_driver (driverid)
+2022-01-12 00:04:35  INFO: Foreign key constraint added to tc_group_driver (groupid)
+2022-01-12 00:04:35  INFO: Foreign key constraint added to tc_group_geofence (geofenceid)
+2022-01-12 00:04:37  INFO: Foreign key constraint added to tc_group_geofence (groupid)
+2022-01-12 00:04:37  INFO: Foreign key constraint added to tc_group_maintenance (groupid)
+2022-01-12 00:04:38  INFO: Foreign key constraint added to tc_group_maintenance (maintenanceid)
+2022-01-12 00:04:38  INFO: Foreign key constraint added to tc_group_notification (groupid)
+2022-01-12 00:04:39  INFO: Foreign key constraint added to tc_group_notification (notificationid)
+2022-01-12 00:04:39  INFO: Foreign key constraint added to tc_notifications (calendarid)
+2022-01-12 00:04:39  INFO: Foreign key constraint added to tc_positions (deviceid)
+2022-01-12 00:04:40  INFO: Foreign key constraint added to tc_user_attribute (attributeid)
+2022-01-12 00:04:40  INFO: Foreign key constraint added to tc_user_attribute (userid)
+2022-01-12 00:04:42  INFO: Foreign key constraint added to tc_user_calendar (calendarid)
+2022-01-12 00:04:44  INFO: Foreign key constraint added to tc_user_calendar (userid)
+2022-01-12 00:04:44  INFO: Foreign key constraint added to tc_user_command (commandid)
+2022-01-12 00:04:45  INFO: Foreign key constraint added to tc_user_command (userid)
+2022-01-12 00:04:45  INFO: Foreign key constraint added to tc_device_attribute (attributeid)
+2022-01-12 00:04:47  INFO: Foreign key constraint added to tc_device_attribute (deviceid)
+2022-01-12 00:04:47  INFO: Foreign key constraint added to tc_user_device (deviceid)
+2022-01-12 00:04:48  INFO: Foreign key constraint added to tc_user_device (userid)
+2022-01-12 00:04:48  INFO: Foreign key constraint added to tc_user_driver (driverid)
+2022-01-12 00:04:49  INFO: Foreign key constraint added to tc_user_driver (userid)
+2022-01-12 00:04:49  INFO: Foreign key constraint added to tc_user_geofence (geofenceid)
+2022-01-12 00:04:50  INFO: Foreign key constraint added to tc_user_geofence (userid)
+2022-01-12 00:04:50  INFO: Foreign key constraint added to tc_user_group (groupid)
+2022-01-12 00:04:51  INFO: Foreign key constraint added to tc_user_group (userid)
+2022-01-12 00:04:51  INFO: Foreign key constraint added to tc_user_maintenance (maintenanceid)
+2022-01-12 00:04:52  INFO: Foreign key constraint added to tc_user_maintenance (userid)
+2022-01-12 00:04:52  INFO: Foreign key constraint added to tc_user_notification (notificationid)
+2022-01-12 00:04:53  INFO: Foreign key constraint added to tc_user_notification (userid)
+2022-01-12 00:04:53  INFO: Foreign key constraint added to tc_user_user (userid)
+2022-01-12 00:04:53  INFO: New row inserted into tc_servers
+2022-01-12 00:04:53  INFO: New row inserted into tc_users
+2022-01-12 00:04:53  INFO: ChangeSet changelog-4.0-clean::changelog-4.0-clean::author ran successfully in 43164ms
+2022-01-12 00:04:56  INFO: Foreign key constraint added to tc_groups (groupid)
+2022-01-12 00:04:57  INFO: Foreign key constraint added to tc_user_user (manageduserid)
+2022-01-12 00:04:57  INFO: ChangeSet changelog-4.0-clean::changelog-4.0-clean-common::author ran successfully in 1004ms
+2022-01-12 00:04:58  INFO: Marking ChangeSet: changelog-3.3::changelog-3.3::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:04:58  INFO: Marking ChangeSet: changelog-3.5::changelog-3.5::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:04:58  INFO: Marking ChangeSet: changelog-3.6::changelog-3.6::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:04:58  INFO: Marking ChangeSet: changelog-3.7::changelog-3.7::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:04:58  INFO: Marking ChangeSet: changelog-3.7::changelog-3.7-notmssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:04:58  INFO: Marking ChangeSet: changelog-3.8::changelog-3.8::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:00  INFO: Marking ChangeSet: changelog-3.9::changelog-3.9::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:00  INFO: Marking ChangeSet: changelog-3.10::changelog-3.10::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:02  INFO: Marking ChangeSet: changelog-3.10::changelog-3.10-notmssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:02  INFO: Marking ChangeSet: changelog-3.10::changelog-3.10-mssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:04  INFO: Marking ChangeSet: changelog-3.10::changelog-3.7-mssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:04  INFO: Marking ChangeSet: changelog-3.11::changelog-3.11::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:04  INFO: Marking ChangeSet: changelog-3.12::changelog-3.12::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:04  INFO: Marking ChangeSet: changelog-3.12::changelog-3.12-notmssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:04  INFO: Marking ChangeSet: changelog-3.12::changelog-3.12-pgsql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:06  INFO: Marking ChangeSet: changelog-3.14::changelog-3.14::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:06  INFO: Marking ChangeSet: changelog-3.15::changelog-3.15::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:06  INFO: Marking ChangeSet: changelog-3.16::changelog-3.16::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:06  INFO: Marking ChangeSet: changelog-3.17::changelog-3.3-admin::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:06  INFO: Marking ChangeSet: changelog-3.17::changelog-3.17::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:06  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0-pre::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:06  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0-common::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:06  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0-pg::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:06  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:08  INFO: Marking ChangeSet: changelog-4.0::changelog-4.0-renaming::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : Not precondition failed
+
+2022-01-12 00:05:08  INFO: Marking ChangeSet: changelog-4.1::changelog-4.1-mssql::author ran despite precondition failure due to onFail='MARK_RAN': 
+          ./schema/changelog-master.xml : DBMS Precondition failed: expected mssql, got mariadb
+
+2022-01-12 00:05:08  INFO: Index user_device_user_id created
+2022-01-12 00:05:08  INFO: Index position_deviceid_fixtime created
+2022-01-12 00:05:08  INFO: ChangeSet changelog-4.7::changelog-4.7::author ran successfully in 121ms
+2022-01-12 00:05:08  INFO: Index event_deviceid_servertime created
+2022-01-12 00:05:08  INFO: ChangeSet changelog-4.9::changelog-4.9::author ran successfully in 36ms
+2022-01-12 00:05:10  INFO: Columns protocols(VARCHAR(4096)) added to tc_statistics
+2022-01-12 00:05:10  INFO: ChangeSet changelog-4.10::changelog-4.10::author ran successfully in 1822ms
+2022-01-12 00:05:10  INFO: Columns announcement(VARCHAR(4000)) added to tc_servers
+2022-01-12 00:05:10  INFO: ChangeSet changelog-4.11::changelog-4.11::author ran successfully in 16ms
+2022-01-12 00:05:10  INFO: Column tc_events.servertime renamed to eventtime
+2022-01-12 00:05:10  INFO: ChangeSet changelog-4.13::changelog-4.13::author ran successfully in 17ms
+2022-01-12 00:05:10  INFO: Successfully released change log lock
+2022-01-12 00:05:20  INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+2022-01-12 00:05:33  INFO: Operating system name: Linux version: 5.4.0-77-generic architecture: amd64
+2022-01-12 00:05:33  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: ojdkbuild version: 11.0.12+7-LTS
+2022-01-12 00:05:33  INFO: Memory limit heap: 237mb non-heap: 0mb
+2022-01-12 00:05:33  INFO: Character encoding: UTF-8 charset: UTF-8
+2022-01-12 00:05:33  INFO: Version: 4.14
+2022-01-12 00:05:33  INFO: Starting server...
+2022-01-12 00:05:38  INFO: jetty-10.0.6; built: 2021-06-29T15:28:56.259Z; git: 37e7731b4b142a882d73974ff3bec78d621bd674; jvm 11.0.12+7-LTS
+2022-01-12 00:05:43  INFO: Started o.t.w.@acb5508{/,null,AVAILABLE}
+2022-01-12 00:05:44  INFO: Session workerName=node0
+2022-01-12 00:05:53  WARN: JAXBContext implementation could not be found. WADL feature is disabled.
+2022-01-12 00:06:06  INFO: Started o.e.j.s.ServletContextHandler@41b66d1{/,null,AVAILABLE}
+2022-01-12 00:06:06  INFO: Started ServerConnector@74fab04a{HTTP/1.1, (http/1.1)}{0.0.0.0:8083}
+2022-01-12 00:06:06  INFO: Started Server@75ed125a{STARTING}[10.0.6,sto=0] @194917ms
+2022-01-12 00:06:07  INFO: Health check enabled with period 480000
+2022-01-12 00:13:20  INFO: HikariPool-1 - Starting...
+2022-01-12 00:13:26  WARN: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-12 00:13:31  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42bc14c1
+2022-01-12 00:13:31  INFO: HikariPool-1 - Start completed.
+2022-01-12 00:13:37  INFO: Clearing database change log checksums
+2022-01-12 00:13:41  INFO: Successfully acquired change log lock
+2022-01-12 00:13:42  INFO: Successfully released change log lock
+2022-01-12 00:13:43  INFO: Successfully acquired change log lock
+2022-01-12 00:13:43  INFO: Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.json.JsonChangeLogParser Unable to get public no-arg constructor
+2022-01-12 00:13:43  INFO: Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.yaml.YamlChangeLogParser Unable to get public no-arg constructor
+2022-01-12 00:14:10  INFO: Reading from traccar1.DATABASECHANGELOG
+2022-01-12 00:14:17  INFO: Reading from traccar1.DATABASECHANGELOG
+2022-01-12 00:14:17  INFO: Cannot load service: liquibase.hub.HubService: Provider liquibase.hub.core.StandardHubService could not be instantiated
+2022-01-12 00:14:17  INFO: Successfully released change log lock
+2022-01-12 00:14:26  INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+2022-01-12 00:14:38  INFO: Operating system name: Linux version: 5.4.0-77-generic architecture: amd64
+2022-01-12 00:14:38  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: ojdkbuild version: 11.0.12+7-LTS
+2022-01-12 00:14:38  INFO: Memory limit heap: 237mb non-heap: 0mb
+2022-01-12 00:14:38  INFO: Character encoding: UTF-8 charset: UTF-8
+2022-01-12 00:14:38  INFO: Version: 4.14
+2022-01-12 00:14:38  INFO: Starting server...
+2022-01-12 00:14:43  INFO: jetty-10.0.6; built: 2021-06-29T15:28:56.259Z; git: 37e7731b4b142a882d73974ff3bec78d621bd674; jvm 11.0.12+7-LTS
+2022-01-12 00:14:49  INFO: Started o.t.w.@18c7f6b5{/,null,AVAILABLE}
+2022-01-12 00:14:50  INFO: Session workerName=node0
+2022-01-12 00:15:00  WARN: JAXBContext implementation could not be found. WADL feature is disabled.
+2022-01-12 00:15:22  INFO: Started o.e.j.s.ServletContextHandler@27fc0217{/,null,AVAILABLE}
+2022-01-12 00:15:24  INFO: Started ServerConnector@3727f0ee{HTTP/1.1, (http/1.1)}{0.0.0.0:8083}
+2022-01-12 00:15:24  INFO: Started Server@426c0486{STARTING}[10.0.6,sto=0] @141852ms
+2022-01-12 00:15:33  INFO: Health check enabled with period 480000
+2022-01-12 00:23:29  INFO: HikariPool-1 - Starting...
+2022-01-12 00:23:35  WARN: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-12 00:23:38  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42bc14c1
+2022-01-12 00:23:38  INFO: HikariPool-1 - Start completed.
+2022-01-12 00:23:45  INFO: Clearing database change log checksums
+2022-01-12 00:23:49  INFO: Successfully acquired change log lock
+2022-01-12 00:23:53  INFO: Successfully released change log lock
+2022-01-12 00:23:53  INFO: Successfully acquired change log lock
+2022-01-12 00:23:53  INFO: Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.json.JsonChangeLogParser Unable to get public no-arg constructor
+2022-01-12 00:23:55  INFO: Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.yaml.YamlChangeLogParser Unable to get public no-arg constructor
+2022-01-12 00:24:18  INFO: Reading from traccar1.DATABASECHANGELOG
+2022-01-12 00:24:24  INFO: Reading from traccar1.DATABASECHANGELOG
+2022-01-12 00:24:24  INFO: Cannot load service: liquibase.hub.HubService: Provider liquibase.hub.core.StandardHubService could not be instantiated
+2022-01-12 00:24:26  INFO: Successfully released change log lock
+2022-01-12 00:24:39  INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+2022-01-12 00:24:51  INFO: Operating system name: Linux version: 5.4.0-77-generic architecture: amd64
+2022-01-12 00:24:51  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: ojdkbuild version: 11.0.12+7-LTS
+2022-01-12 00:24:51  INFO: Memory limit heap: 237mb non-heap: 0mb
+2022-01-12 00:24:51  INFO: Character encoding: UTF-8 charset: UTF-8
+2022-01-12 00:24:51  INFO: Version: 4.14
+2022-01-12 00:24:51  INFO: Starting server...
+2022-01-12 00:24:55  INFO: jetty-10.0.6; built: 2021-06-29T15:28:56.259Z; git: 37e7731b4b142a882d73974ff3bec78d621bd674; jvm 11.0.12+7-LTS
+2022-01-12 00:24:59  INFO: Started o.t.w.@18c7f6b5{/,null,AVAILABLE}
+2022-01-12 00:25:02  INFO: Session workerName=node0
+2022-01-12 00:25:15  WARN: JAXBContext implementation could not be found. WADL feature is disabled.
+2022-01-12 00:25:24  INFO: Started o.e.j.s.ServletContextHandler@27fc0217{/,null,AVAILABLE}
+2022-01-12 00:25:24  INFO: Started ServerConnector@3727f0ee{HTTP/1.1, (http/1.1)}{0.0.0.0:8083}
+2022-01-12 00:25:24  INFO: Started Server@426c0486{STARTING}[10.0.6,sto=0] @130134ms
+2022-01-12 00:25:25  INFO: Health check enabled with period 480000
+2022-01-12 00:33:26  INFO: HikariPool-1 - Starting...
+2022-01-12 00:33:27  WARN: Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-01-12 00:33:28  INFO: HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42bc14c1
+2022-01-12 00:33:28  INFO: HikariPool-1 - Start completed.
+2022-01-12 00:33:30  INFO: Clearing database change log checksums
+2022-01-12 00:33:30  INFO: Successfully acquired change log lock
+2022-01-12 00:33:31  INFO: Successfully released change log lock
+2022-01-12 00:33:31  INFO: Successfully acquired change log lock
+2022-01-12 00:33:31  INFO: Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.json.JsonChangeLogParser Unable to get public no-arg constructor
+2022-01-12 00:33:31  INFO: Cannot load service: liquibase.parser.ChangeLogParser: liquibase.parser.core.yaml.YamlChangeLogParser Unable to get public no-arg constructor
+2022-01-12 00:33:37  INFO: Reading from traccar1.DATABASECHANGELOG
+2022-01-12 00:33:39  INFO: Reading from traccar1.DATABASECHANGELOG
+2022-01-12 00:33:39  INFO: Cannot load service: liquibase.hub.HubService: Provider liquibase.hub.core.StandardHubService could not be instantiated
+2022-01-12 00:33:39  INFO: Successfully released change log lock
+2022-01-12 00:33:41  INFO: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system instability.
+2022-01-12 00:33:45  INFO: Operating system name: Linux version: 5.4.0-77-generic architecture: amd64
+2022-01-12 00:33:45  INFO: Java runtime name: OpenJDK 64-Bit Server VM vendor: ojdkbuild version: 11.0.12+7-LTS
+2022-01-12 00:33:45  INFO: Memory limit heap: 237mb non-heap: 0mb
+2022-01-12 00:33:45  INFO: Character encoding: UTF-8 charset: UTF-8
+2022-01-12 00:33:45  INFO: Version: 4.14
+2022-01-12 00:33:45  INFO: Starting server...
+2022-01-12 00:33:46  INFO: jetty-10.0.6; built: 2021-06-29T15:28:56.259Z; git: 37e7731b4b142a882d73974ff3bec78d621bd674; jvm 11.0.12+7-LTS
+2022-01-12 00:33:47  INFO: Started o.t.w.@615e83ac{/,null,AVAILABLE}
+2022-01-12 00:33:47  INFO: Session workerName=node0
+2022-01-12 00:33:50  WARN: JAXBContext implementation could not be found. WADL feature is disabled.
+2022-01-12 00:33:52  INFO: Started o.e.j.s.ServletContextHandler@12e2f5ab{/,null,AVAILABLE}
+2022-01-12 00:33:52  INFO: Started ServerConnector@fb713e7{HTTP/1.1, (http/1.1)}{0.0.0.0:8083}
+2022-01-12 00:33:52  INFO: Started Server@5002fde9{STARTING}[10.0.6,sto=0] @28498ms
+2022-01-12 00:33:52  INFO: Health check enabled with period 480000
